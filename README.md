@@ -39,20 +39,22 @@ Overall, **Random Forest is the top performer**, suggesting its effectiveness fo
 ### Visualizations
 Below are key visualizations from the analysis:
 
-#### Model Performance Comparison
-![Model Performance](chart_1.png)
+
 
 #### Confusion Matrix for Random Forest
-![Random Forest Confusion Matrix](chart_4.png)
+![image](https://github.com/user-attachments/assets/291b7d41-ae7a-458f-9748-f83c8c061986)
+
 
 #### Confusion Matrix for Logistic Regression
-![Logistic Regression Confusion Matrix](chart_5.png)
+![image](https://github.com/user-attachments/assets/dd8ed89f-ff1d-4029-8453-f36d874f62aa)
+
 
 #### Confusion Matrix for CNN
-![CNN Confusion Matrix](chart_2.png)
+![image](https://github.com/user-attachments/assets/02b4a384-ab89-4110-9cc5-f22a2d771b16)
+
 
 #### Confusion Matrix for LSTM
-![LSTM Confusion Matrix](chart_3.png)
+
 
 ## How to Use
 Clone this repository and run the Jupyter Notebook in your preferred environment.
