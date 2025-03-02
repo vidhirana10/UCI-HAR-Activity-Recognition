@@ -57,7 +57,7 @@ Below are key visualizations from the analysis:
 ## How to Use
 Clone this repository and run the Jupyter Notebook in your preferred environment.
 ```bash
-git clone https://github.com/yourusername/UCI-HAR-Activity-Recognition.git
+git clone https://github.com/vidhirana10/UCI-HAR-Activity-Recognition.git
 cd UCI-HAR-Activity-Recognition
 jupyter notebook Selection_task_submission.ipynb
 ```
