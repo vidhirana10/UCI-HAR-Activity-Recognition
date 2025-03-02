@@ -16,8 +16,7 @@ The **UCI HAR Dataset** consists of motion sensor readings (accelerometer and gy
 ## Installation & Requirements
 To run this notebook, install the required dependencies:
 ```bash
-pip install torch torchvision torchaudio
-pip install scikit-learn tsfel matplotlib seaborn
+pip install -r requirements.txt
 ```
 If using Google Colab, ensure to mount Google Drive before accessing the dataset.
 
@@ -41,19 +40,18 @@ Below are key visualizations from the analysis:
 
 
 
-#### Confusion Matrix for Random Forest
+#### Comparison of various ML models when trained on original raw sensor data, a pre-extracted feature set provided by the dataset authors, and a feature set generated using the TSFEL library
 ![image](https://github.com/user-attachments/assets/291b7d41-ae7a-458f-9748-f83c8c061986)
 
 
-#### Confusion Matrix for Logistic Regression
+#### Comparison for accuracies of DL models
 ![image](https://github.com/user-attachments/assets/dd8ed89f-ff1d-4029-8453-f36d874f62aa)
 
 
-#### Confusion Matrix for CNN
+#### Comparison for accuracies of DL versus ML models
 ![image](https://github.com/user-attachments/assets/02b4a384-ab89-4110-9cc5-f22a2d771b16)
 
 
-#### Confusion Matrix for LSTM
 
 
 ## How to Use
@@ -64,12 +62,10 @@ cd UCI-HAR-Activity-Recognition
 jupyter notebook Selection_task_submission.ipynb
 ```
 
-## License
-This project is open-source and available under the **MIT License**.
+
 
 ## Contact
 For any queries, feel free to reach out or contribute to this project!
 
----
-Feel free to modify and update this README as needed!
+
 
